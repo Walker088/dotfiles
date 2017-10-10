@@ -1,8 +1,12 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="$PATH:$HOME/.scripts/bin"
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$HOME/NCCU/golang/bin
+export GOPATH="$HOME/NCCU/golang/:$HOME/NCCU/golang/go-ethereum/build/_worksapce/"
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/walker088/.oh-my-zsh
+export ZSH=/home/walker088/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -83,3 +87,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias python=python3
+alias py3=python3
+alias py2=python2
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
