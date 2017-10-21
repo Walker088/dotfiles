@@ -3,7 +3,7 @@
 export PATH="$PATH:$HOME/.scripts/bin"
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/NCCU/golang/bin
-export GOPATH="$HOME/NCCU/golang/:$HOME/NCCU/golang/go-ethereum/build/_worksapce/"
+export GOPATH="$HOME/go"
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/walker088/.oh-my-zsh

@@ -39,9 +39,17 @@ let g:go_hightlight_operators = 1
 let g:go_hightlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 
+"nerdtree
+autocmd vimenter * NERDTree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
+map <C-n> :NERDTreeToggle<CR>
+
 "theme
 syntax enable
 set background=dark
-colorscheme monokai
+colorscheme molokai
 "let g:solarized_termcolor=256
 let g:molokai_original=1
