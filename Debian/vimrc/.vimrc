@@ -53,3 +53,8 @@ set background=dark
 colorscheme molokai
 "let g:solarized_termcolor=256
 let g:molokai_original=1
+
+" vim-latex-preview settings
+autocmd Filetype tex setl updatetime=100
+let g:livepreview_previewer = 'evince'
+nmap <F12> :LLPStartPreview<cr>
