@@ -35,8 +35,11 @@ let g:go_hightlight_functions = 1
 let g:go_hightlight_methods = 1
 let g:go_hightlight_structs = 1
 let g:go_hightlight_interfaces = 1
+let g:go_highlight_types = 1
 let g:go_hightlight_operators = 1
 let g:go_hightlight_build_constraints = 1
+let g:go_highlight_variable_assignments = 1
+let g:go_highlight_fields = 1
 let g:go_fmt_command = "goimports"
 
 "nerdtree
@@ -53,3 +56,8 @@ set background=dark
 colorscheme molokai
 "let g:solarized_termcolor=256
 let g:molokai_original=1
+
+" vim-latex-live-preview settings
+autocmd Filetype tex setl updatetime=400
+let g:livepreview_previewer = 'open -a Preview'
+nmap <F12> :LLPStartPreview<cr>
