@@ -16,6 +16,7 @@ git clone https://github.com/tomasr/molokai.git ~/./dotfiles/.vim/bundle/molokai
 git clone https://github.com/fatih/vim-go.git ~/./dotfiles/.vim/bundle/vim-go
 git clone https://github.com/sickill/vim-monokai.git ~/./dotfiles/.vim/bundle/vim-monokai
 
+echo pwd
 ln -s dotfiles/Debian/vimrc/.vimrc .vimrc
 ln -s dotfiles/Debian/zshrc/.zshrc .zshrc
-ln -s dotfiles/.vim .vim
+ln -s dotfiles/.vim/ .vim
