@@ -1,7 +1,10 @@
 # init
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install git vim curl wget htop psmisc pm-utils
+sudo apt-get install git curl wget htop psmisc pm-utils htop
+
+#install lastest version of vim
+./setupVim.sh
 
 # install dotfile from github
 echo "------------------------------------"
