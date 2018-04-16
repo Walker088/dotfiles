@@ -50,7 +50,8 @@ map <C-n> :NERDTreeToggle<CR>
 "theme
 syntax enable
 set background=dark
-colorscheme molokai
+colorscheme monokai
+"colorscheme molokai
 "let g:solarized_termcolor=256
 let g:molokai_original=1
 
