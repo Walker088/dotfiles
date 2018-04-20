@@ -99,14 +99,5 @@ autocmd Filetype tex setl updatetime=100
 let g:livepreview_previewer = 'evince'
 nmap <F12> :LLPStartPreview<cr>
 
-"Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
 "python exec
 autocmd BufRead *.py nmap<leader>c :w<Esc>G:r!python3 %<CR>
