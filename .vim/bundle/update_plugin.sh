@@ -15,6 +15,7 @@ git clone https://github.com/tmhedberg/SimpylFold.git ~/./dotfiles/.vim/bundle/S
 git clone https://github.com/xuhdev/vim-latex-live-preview.git ~/./dotfiles/.vim/bundle/vim-latex-live-preview
 git clone https://github.com/Valloric/YouCompleteMe.git ~/./dotfiles/.vim/bundle/YouCompleteMe
 git clone https://github.com/jnurmine/Zenburn.git ~/./dotfiles/.vim/bundle/Zenburn
+git clone https://github.com/dart-lang/dart-vim-plugin.git ~/./dotfiles/.vim/bundle/dart-vim-plugin
 
 cp ./my-install.sh ./YouCompleteMe/
 cd ./YouCompleteMe

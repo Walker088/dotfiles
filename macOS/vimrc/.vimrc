@@ -78,6 +78,11 @@ let g:go_highlight_variable_assignments = 1
 let g:go_highlight_fields = 1
 let g:go_fmt_command = "goimports"
 
+"dartlang
+let dart_html_in_string=v:true
+let dart_style_guide = 2
+let dart_format_on_save = 1
+
 "nerdtree
 autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
@@ -102,4 +107,4 @@ let g:livepreview_engine = 'latexmk -pdf'
 nmap <F12> :LLPStartPreview<cr>
 
 "python exec
-autocmd BufRead *.py nmap<leader>c :w<Esc>G:r!python3 %<CR>
+autocmd BufRead *.py nmap<leader>c :w<Esc>G:r!python3.4 %<CR>

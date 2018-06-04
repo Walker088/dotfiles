@@ -1,9 +1,24 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="$PATH:$HOME/.scripts/bin"
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:$HOME/NCCU/golang/bin
 export GOPATH="$HOME/go"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export PATH="/usr/local/etc/flutter/bin:$PATH"
+
+# settings for macports
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Admin/.oh-my-zsh
@@ -91,12 +106,3 @@ alias python=python3
 alias py3=python3
 alias py2=python2
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# settings for macports
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
