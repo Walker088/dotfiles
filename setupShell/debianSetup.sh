@@ -29,6 +29,7 @@ git clone https://github.com/tmhedberg/SimpylFold.git ~/./dotfiles/.vim/bundle/S
 git clone https://github.com/xuhdev/vim-latex-live-preview.git ~/./dotfiles/.vim/bundle/vim-latex-live-preview
 git clone https://github.com/Valloric/YouCompleteMe.git ~/./dotfiles/.vim/bundle/YouCompleteMe
 git clone https://github.com/jnurmine/Zenburn.git ~/./dotfiles/.vim/bundle/Zenburn
+git clone https://github.com/tpope/vim-fugitive.git ~/./dotfiles/.vim/bundle/vim-fugitive
 
 # link the rc files to root folder
 echo "------------------------------------"

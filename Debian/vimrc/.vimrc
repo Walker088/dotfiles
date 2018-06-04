@@ -76,6 +76,10 @@ let g:go_hightlight_operators = 1
 let g:go_hightlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 
+"nodejs nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 "nerdtree
 autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
