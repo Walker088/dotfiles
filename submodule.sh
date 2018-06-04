@@ -1,0 +1,15 @@
+git submodule add https://github.com/scrooloose/nerdtree.git .vim/bundle/nerdtree
+git submodule add https://github.com/tomasr/molokai.git .vim/bundle/molokai
+git submodule add https://github.com/jpo/vim-railscasts-theme.git .vim/bundle/vim-railscasts-theme
+git submodule add https://github.com/fatih/vim-go.git .vim/bundle/vim-go
+git submodule add https://github.com/sickill/vim-monokai.git .vim/bundle/vim-monokai
+git submodule add https://github.com/vim-syntastic/syntastic.git .vim/bundle/syntastic
+git submodule add https://github.com/tpope/vim-fugitive.git .vim/bundle/vim-fugitive
+git submodule add https://github.com/Yggdroot/indentLine.git .vim/bundle/indentLine
+git submodule add https://github.com/vim-scripts/indentpython.vim.git .vim/bundle/indentpython.vim
+git submodule add https://github.com/hdima/python-syntax.git .vim/bundle/python-syntax
+git submodule add https://github.com/tmhedberg/SimpylFold.git .vim/bundle/SimpylFold
+git submodule add https://github.com/xuhdev/vim-latex-live-preview.git .vim/bundle/vim-latex-live-preview
+git submodule add https://github.com/Valloric/YouCompleteMe.git .vim/bundle/YouCompleteMe
+git submodule add https://github.com/jnurmine/Zenburn.git .vim/bundle/Zenburn
+git submodule add https://github.com/dart-lang/dart-vim-plugin.git .vim/bundle/dart-vim-plugin
