@@ -16,7 +16,7 @@ git clone https://github.com/xuhdev/vim-latex-live-preview.git ~/./dotfiles/.vim
 git clone https://github.com/Valloric/YouCompleteMe.git ~/./dotfiles/.vim/bundle/YouCompleteMe
 git clone https://github.com/jnurmine/Zenburn.git ~/./dotfiles/.vim/bundle/Zenburn
 git clone https://github.com/dart-lang/dart-vim-plugin.git ~/./dotfiles/.vim/bundle/dart-vim-plugin
-
+git clone https://github.com/nightsense/carbonized.git ~/./dotfiles/.vim/bundle/carbonized
 cp ./my-install.sh ./YouCompleteMe/
 cd ./YouCompleteMe
 ./my-install.sh

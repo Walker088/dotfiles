@@ -1,3 +1,7 @@
+git submodule add https://github.com/nightsense/vrunchbang.git .vim/bundle/vrunchbang
+git submodule add https://github.com/altercation/vim-colors-solarized.git .vim/bundle/vim-colors-solarized
+git submodule add https://github.com/morhetz/gruvbox.git .vim/bundle/gruvbox
+git submodule add https://github.com/nightsense/carbonized.git .vim/bundle/carbonized
 git submodule add https://github.com/scrooloose/nerdtree.git .vim/bundle/nerdtree
 git submodule add https://github.com/tomasr/molokai.git .vim/bundle/molokai
 git submodule add https://github.com/jpo/vim-railscasts-theme.git .vim/bundle/vim-railscasts-theme
