@@ -3,6 +3,8 @@
 export PATH="$PATH:$HOME/.scripts/bin"
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/NCCU/golang/bin
+export PATH=$PATH:$HOME/go/bin
+
 export GOPATH="$HOME/go"
 
 # Path to your oh-my-zsh installation.

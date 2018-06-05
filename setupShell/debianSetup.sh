@@ -1,7 +1,7 @@
 # init
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install git curl wget htop psmisc pm-utils htop cmake
+sudo apt-get install git curl wget htop psmisc pm-utils htop cmake ssh
 
 #install lastest version of vim
 ./setupVim.sh
