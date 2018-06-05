@@ -55,3 +55,15 @@
 [submodule ".vim/bundle/vrunchbang"]
 	path = .vim/bundle/vrunchbang
 	url = https://github.com/nightsense/vrunchbang.git
+[submodule ".vim/bundle/tender"]
+	path = .vim/bundle/tender
+	url = https://github.com/jacoborus/tender.vim.git
+[submodule ".vim/bundle/vim-atom-dark"]
+	path = .vim/bundle/vim-atom-dark
+	url = https://github.com/gosukiwi/vim-atom-dark.git
+[submodule ".vim/bundle/onehalf"]
+	path = .vim/bundle/onehalf
+	url = https://github.com/sonph/onehalf.git
+[submodule ".vim/bundle/dracula"]
+	path = .vim/bundle/dracula
+	url = https://github.com/dracula/vim.git

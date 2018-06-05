@@ -1,3 +1,8 @@
+git submodule add https://github.com/jacoborus/tender.vim.git .vim/bundle/tender
+git submodule add https://github.com/gosukiwi/vim-atom-dark.git .vim/bundle/vim-atom-dark
+git submodule add https://github.com/sonph/onehalf.git .vim/bundle/onehalf
+git submodule add https://github.com/dracula/vim.git .vim/bundle/dracula
+
 git submodule add https://github.com/nightsense/vrunchbang.git .vim/bundle/vrunchbang
 git submodule add https://github.com/altercation/vim-colors-solarized.git .vim/bundle/vim-colors-solarized
 git submodule add https://github.com/morhetz/gruvbox.git .vim/bundle/gruvbox
