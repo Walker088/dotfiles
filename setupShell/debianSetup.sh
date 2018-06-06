@@ -2,38 +2,37 @@
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install git curl wget htop psmisc pm-utils htop cmake ssh
+sudo update-grub
+sudo dpkg-reconfigure dash
 
 #install lastest version of vim
 ./setupVim.sh
+cd ./vim
+./vimInstall.sh
+cd ..
 
+./gitconfig.sh
+./build-zsh.sh
+./goEthSetup.sh
+sudo ln -s /usr/local/go/bin/go /usr/local/bin/go
+./nodeInstall.sh
+./dotnetInstall.sh
+./latexSetup.sh
+./inputMethod.sh
+
+cd ../.vim/bundle
+update-plugin.sh
+cd ../setupShell
 # install dotfile from github
-echo "------------------------------------"
-git clone https://github.com/Walker088/dotfiles.git
-git clone https://github.com/NCCUCS-PLSM/NCCU-BFT-for-Go-Ethereum.git
-git clone https://github.com/Walker088/Multi-Sig-UniQuorum.git
+#git clone https://github.com/NCCUCS-PLSM/NCCU-BFT-for-Go-Ethereum.git
+#git clone https://github.com/Walker088/Multi-Sig-UniQuorum.git
 
 # install pathogen and other vim plugin
 echo "------------------------------------"
 curl -LSso ~/./dotfiles/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-git clone https://github.com/scrooloose/nerdtree.git ~/./dotfiles/.vim/bundle/nerdtree
-git clone https://github.com/tomasr/molokai.git ~/./dotfiles/.vim/bundle/molokai
-git clone https://github.com/jpo/vim-railscasts-theme.git ~/./dotfiles/.vim/bundle/vim-railscasts-theme
-git clone https://github.com/fatih/vim-go.git ~/./dotfiles/.vim/bundle/vim-go
-git clone https://github.com/sickill/vim-monokai.git ~/./dotfiles/.vim/bundle/vim-monokai
-git clone https://github.com/vim-syntastic/syntastic.git ~/./dotfiles/.vim/bundle/syntastic
-git clone https://github.com/tpope/vim-fugitive.git ~/./dotfiles/.vim/bundle/vim-fugitive
-git clone https://github.com/Yggdroot/indentLine.git ~/./dotfiles/.vim/bundle/indentLine
-git clone https://github.com/vim-scripts/indentpython.vim.git ~/./dotfiles/.vim/bundle/indentpython.vim
-git clone https://github.com/hdima/python-syntax.git ~/./dotfiles/.vim/bundle/python-syntax
-git clone https://github.com/tmhedberg/SimpylFold.git ~/./dotfiles/.vim/bundle/SimpylFold
-git clone https://github.com/xuhdev/vim-latex-live-preview.git ~/./dotfiles/.vim/bundle/vim-latex-live-preview
-git clone https://github.com/Valloric/YouCompleteMe.git ~/./dotfiles/.vim/bundle/YouCompleteMe
-git clone https://github.com/jnurmine/Zenburn.git ~/./dotfiles/.vim/bundle/Zenburn
-git clone https://github.com/tpope/vim-fugitive.git ~/./dotfiles/.vim/bundle/vim-fugitive
-
 # link the rc files to root folder
 echo "------------------------------------"
 pwd
-ln -s dotfiles/Debian/vimrc/.vimrc .vimrc
-ln -s dotfiles/Debian/zshrc/.zshrc .zshrc
-ln -s dotfiles/.vim/ .vim
+ln -s ~/dotfiles/Debian/vimrc/.vimrc ~/.vimrc
+ln -s ~/dotfiles/Debian/zshrc/.zshrc ~/.zshrc
+ln -s ~/dotfiles/.vim/ ~/.vim

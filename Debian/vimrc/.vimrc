@@ -7,7 +7,7 @@ set encoding=utf-8
 set fileencodings=utf-8,cp950
 
 "editin preferences
-syntax on
+"syntax on
 let python_highlight_all=1
 
 "view
@@ -86,13 +86,16 @@ let NERDTreeWinSize=25
 map <C-n> :NERDTreeToggle<CR>
 
 "theme
-syntax enable
+set t_Co=256
+let g:solarized_termtrans = 1
+let g:solarized_termcolors=256
 set background=dark
+"colorscheme solarized
+syntax enable
 colorscheme railscasts
 "colorscheme monokai
 "colorscheme molokai
-"let g:solarized_termcolor=256
-let g:molokai_original=1
+"let g:molokai_original=1
 
 "vim-latex-preview settings
 autocmd Filetype tex setl updatetime=100

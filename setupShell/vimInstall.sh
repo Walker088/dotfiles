@@ -10,7 +10,7 @@ git pull
 			--enable-gui=gtk2 \
 			--enable-cscope \
 			--prefix=/usr/local
-make VIMRUNTIMEDIR=/usr/local/share/vim/vim80
+make VIMRUNTIMEDIR=/usr/local/share/vim/vim81
 make check
 sudo make install
 make clean
