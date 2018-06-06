@@ -29,7 +29,7 @@ ZSH_THEME="muse"
 
 # Uncomment the following line to disable colors in ls.
 #DISABLE_LS_COLORS="true"
-LS_COLORS="di=1;35:ex=4;31:"
+
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
 
