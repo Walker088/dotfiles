@@ -14,6 +14,7 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export PATH="/usr/local/etc/flutter/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
 
 # settings for macports
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
@@ -26,7 +27,7 @@ export ZSH=/Users/Admin/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="amuse"
+ZSH_THEME="muse"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
