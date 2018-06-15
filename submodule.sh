@@ -22,3 +22,5 @@ git submodule add https://github.com/xuhdev/vim-latex-live-preview.git .vim/bund
 git submodule add https://github.com/Valloric/YouCompleteMe.git .vim/bundle/YouCompleteMe
 git submodule add https://github.com/jnurmine/Zenburn.git .vim/bundle/Zenburn
 git submodule add https://github.com/dart-lang/dart-vim-plugin.git .vim/bundle/dart-vim-plugin
+git submodule add https://github.com/plasticboy/vim-markdown.git .vim/bundle/vim-markdown
+git submodule add https://github.com/suan/vim-instant-markdown.git .vim/bundle/vim-instant-markdown

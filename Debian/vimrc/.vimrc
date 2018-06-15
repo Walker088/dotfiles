@@ -92,10 +92,24 @@ let g:solarized_termcolors=256
 set background=dark
 "colorscheme solarized
 syntax enable
-colorscheme railscasts
+"colorscheme railscasts
 "colorscheme monokai
 "colorscheme molokai
+"colorscheme gruvbox
+colorscheme tender
 "let g:molokai_original=1
+
+"vim-instant-markdown settings
+let g:instant_markdown_slow = 1
+let g:instant_markdown_allow_unsafe_content = 1
+"let g:instant_markdown_autostart = 0
+
+"vim-markdown settings
+let g:vim_markdown_no_default_key_mappings = 1
+let g:vim_markdown_toc_autofit = 1
+let g:vim_markdown_math = 1
+let g:vim_markdown_frontmatter = 1
+
 
 "vim-latex-preview settings
 autocmd Filetype tex setl updatetime=100
