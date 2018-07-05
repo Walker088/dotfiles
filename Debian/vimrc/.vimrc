@@ -102,7 +102,7 @@ colorscheme tender
 "vim-instant-markdown settings
 let g:instant_markdown_slow = 1
 let g:instant_markdown_allow_unsafe_content = 1
-"let g:instant_markdown_autostart = 0
+let g:instant_markdown_autostart = 0
 
 "vim-markdown settings
 let g:vim_markdown_no_default_key_mappings = 1
