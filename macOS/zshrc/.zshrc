@@ -10,7 +10,7 @@ export NVM_DIR="$HOME/.nvm"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export PATH="/usr/local/etc/flutter/bin:$PATH"
@@ -18,8 +18,8 @@ export PATH="$HOME/go/bin:$PATH"
 
 # settings for macports
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-
-
+export PATH=/opt/local/Library/Frameworks/Python.framework/Versions/3.6/bin:$PATH
+export PATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Admin/.oh-my-zsh
@@ -107,3 +107,4 @@ alias python=python3
 alias py3=python3
 alias py2=python2
 
+#eval $(dircolors -b $HOME/.dircolors)

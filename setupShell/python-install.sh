@@ -3,7 +3,10 @@
 curl -OL https://www.python.org/ftp/python/${1}/Python-${1}.tgz
 tar xzvf Python-${1}.tgz
 cd Python-${1}/
-./configure --prefix=/usr/local --enable-shared
+./configure --prefix=/usr/local \
+			--enable-shared \
+			--with-ssl \
+			--enable-optimizations
 make
 make install
 make clean
