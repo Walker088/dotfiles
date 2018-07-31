@@ -9,4 +9,4 @@ ln -s dotfiles/msigAws/zshrc/.zshrc ~/.zshrc
 ln -s dotfiles/msigAws/vimrc/.vimrc ~/.vimrc
 ln -s dotfiles/.vim/ ~/.vim
 sudo rm /usr/bin/go
-logout
+exit
