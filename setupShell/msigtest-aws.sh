@@ -1,0 +1,8 @@
+sudo apt-get install cmake wget curl 
+./gitconfig.sh
+./ls-colors.sh
+./goEthSetup.sh
+./setupVim.sh
+cd vim/ && ./vimInstall.sh && cd ..
+cd ../.vim/bundle/ && ./update-plugin.sh && cd ~/
+ln -s dotfiles/msigAws/zshrc/.zshrc ./zshrc
