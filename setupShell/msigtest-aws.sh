@@ -1,7 +1,8 @@
 sudo apt-get install cmake wget curl 
 ./gitconfig.sh
-./ls-colors.sh
+./ls-colors.sh aws
 ./goEthSetup.sh
+./build-zsh.sh
 ./setupVim.sh
 cd vim/ && ./vimInstall.sh && cd ..
 cd ../.vim/bundle/ && ./update-plugin.sh && cd ~/
