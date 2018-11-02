@@ -95,7 +95,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-scl enable rh-python36 zsh
+#scl enable rh-python36 zsh
 #alias python=python3
 #alias py3=python3
 #alias py2=python2

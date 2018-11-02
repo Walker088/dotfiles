@@ -26,9 +26,10 @@ cd vim/src
 make && make install
 
 # java8
-sudo yum install java-1.8.0-openjdk.x86_64
+sudo yum install java-1.8.0-openjdk-devel
 
 # python3
+sudo yum install centos-release-scl
 sudo yum install rh-python36
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python2 get-pip.py && sudo python3 get-pip.py
