@@ -1,1 +1,0 @@
-netstat -a | grep ssh
