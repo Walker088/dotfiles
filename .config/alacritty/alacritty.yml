@@ -1,0 +1,14 @@
+window:
+  opacity: 0.9
+
+font:
+  size: 14.0
+  normal:
+    family: "JetBrainsMono Nerd Font"
+  bold:
+    family: "JetBrainsMono Nerd Font"
+  italic:
+    family: "JetBrainsMono Nerd Font"
+  bold_italic:
+    family: "JetBrainsMono Nerd Font"
+
