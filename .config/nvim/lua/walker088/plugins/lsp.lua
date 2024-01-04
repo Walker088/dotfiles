@@ -33,8 +33,9 @@ return {
 					"dockerls",
 					"gopls", -- golang
 					"jsonls",
-					"jdtls",
+					"jdtls", -- java eclipse
 					"pyright", -- python
+					"rust_analyzer",
 					"taplo", -- toml
 					"yamlls",
 					"lemminx", -- xml
@@ -214,6 +215,19 @@ return {
 					home .. "/.local/share/nvim/mason/packages/jdtls/config_" .. CONFIG,
 					"-data",
 					workspace_dir,
+				},
+			})
+
+			-- rust
+			lspconfig["rust_analyzer"].setup({
+				capabilities = capabilities,
+				on_attach = on_attach,
+				settings = {
+					["rust-analyzer"] = {
+						checkOnSave = {
+							command = "clippy",
+						},
+					},
 				},
 			})
 
