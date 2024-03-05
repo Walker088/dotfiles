@@ -15,3 +15,5 @@ family = "JetBrainsMono Nerd Font"
 
 [window]
 opacity = 0.8
+dimensions.columns = 110
+dimensions.lines = 20
