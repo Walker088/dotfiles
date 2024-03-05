@@ -221,7 +221,16 @@ return {
 			-- rust
 			lspconfig["rust_analyzer"].setup({
 				capabilities = capabilities,
-				on_attach = on_attach,
+				on_attach = function(client, bufnr)
+					on_attach(client, bufnr)
+
+					vim.api.nvim_create_autocmd("BufWritePost", {
+						pattern = { "*.rs" },
+						callback = function()
+							vim.lsp.buf.format()
+						end,
+					})
+				end,
 				settings = {
 					["rust-analyzer"] = {
 						checkOnSave = {
